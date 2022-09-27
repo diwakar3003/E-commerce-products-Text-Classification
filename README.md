@@ -1,6 +1,6 @@
 # E-commerce-products-Text-Classification
 
-#General info :
+General info :
 
 The goal of the project is product categorization based on their description with Machine Learning  algorithms. Additionaly we have created Doc2vec  models and EDA analysis (data exploration, data aggregation and cleaning data).
 
@@ -29,11 +29,14 @@ We begin with data analysis and data pre-processing from our dataset. Then we ha
 From our experiments we can see that the tested models give a overall high accuracy and similar results for our problem. The SVM (DBOW ) model  give the best accuracy of validation set. Logistic regression performed very well both with DBOW and Doc2vec. We achieved an accuracy on the test set equal to 95 %. That shows the extensive models are not gave a better results to our problem than simple Machine Learning models such as SVM.
 
 Model	Embeddings	Accuracy
+
 SVM	Doc2vec (DBOW)	0.95
 SVM	Doc2vec (DM)	0.86
 Logistic Regression	Doc2vec (DBOW)	0.95
 Logistic Regression	Doc2vec (DM)	0.86
+
 The project is created with:
+
 Python 3.8/3.10
 libraries: NLTK, gensim, Keras, TensorFlow, Hugging Face transformers, scikit-learn, pandas, numpy, seaborn, pyLDAvis.
 
