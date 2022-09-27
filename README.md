@@ -19,7 +19,9 @@ The aim of the project is multi-class text classification to E-commerce products
 Project contains:
 
 Text classification with Doc2vec model -Text_Classification_Using_Doc2vec.ipynb
+
 EDA analysis - Products_analysis.ipynb
+
 data, models - data and models used in the project.
 
 Summary:
@@ -31,8 +33,11 @@ From our experiments we can see that the tested models give a overall high accur
 Model	Embeddings	Accuracy
 
 SVM	Doc2vec (DBOW)	0.95
+
 SVM	Doc2vec (DM)	0.86
+
 Logistic Regression	Doc2vec (DBOW)	0.95
+
 Logistic Regression	Doc2vec (DM)	0.86
 
 The project is created with:
